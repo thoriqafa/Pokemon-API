@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>MCC 78</title>
+  </head>
+  <body>
+    <h1 id="judul" class="judul">Ini adalah Judul</h1>
+    <div class="container" id="container">
+      <section id="a">
+        <p class="p1">Ini adalah sebuah paragraf ke - 1</p>
+        <p class="p2">Ini adalah sebuah paragraf ke - 2</p>
+        <p class="p3">Ini adalah sebuah paragraf ke - 3</p>
+      </section>
+      <section id="b" class="c">
+        <ul id="a">
+          <li class="list">Ini adalah list ke - 1</li>
+          <li class="list">Ini adalah list ke - 2</li>
+          <li class="list" onclick="ubah()">Ini adalah list ke - 3</li>
+          <li class="list">Ini adalah list ke - 4</li>
+        </ul>
+      </section>
+      <section id="c">
+        <input placeholder="input hobby" id="inputHobby" />
+        <button onclick="getHobby()">show</button>
+        <div id="listHobby"></div>
+      </section>
+    </div>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS Local -->
+    <!-- <script src="index.js"></script> -->
+    <script src="latihan.js"></script>
+  </body>
+</html>
